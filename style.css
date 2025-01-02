@@ -9,8 +9,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #F39E60; /* Peach from palette */
-    color: #7C444F; /* Dark Red from palette */
+    background-color: #F8FAFC; /* Light Background from palette */
+    color: #6B2; /* Dark Accent from palette */
     padding: 20px;
     text-align: center; /* Centers all text in the body */
 }
@@ -31,13 +31,13 @@ header {
 
 header h1 {
     font-size: 2.5em;
-    color: #7C444F; /* Dark Red from palette */
+    color: #D9EAFD; /* Light Blue from palette */
     margin-bottom: 0.5em;
 }
 
 header p {
     font-size: 1.2em;
-    color: #9F5255; /* Medium Red from palette */
+    color: #BCCCDC; /* Medium Accent from palette */
 }
 
 /* Links Section */
@@ -53,7 +53,7 @@ header p {
 .links a {
     display: block;
     padding: 10px 15px;
-    background-color: #E16A54; /* Light Red from palette */
+    background-color: #BCCCDC; /* Medium Accent from palette */
     color: #FFFFFF; /* White */
     text-decoration: none;
     border-radius: 5px;
@@ -62,19 +62,19 @@ header p {
 }
 
 .links a:hover {
-    background-color: #F39E60; /* Peach from palette */
+    background-color: #AA6B2; /* Dark Accent from palette */
 }
 
 /* Footer Styles */
 footer {
     margin-top: 40px;
     font-size: 0.9em;
-    color: #9F5255; /* Medium Red from palette */
+    color: #D9EAFD; /* Light Blue from palette */
 }
 
 footer .note {
     font-size: 1em;
-    color: #E16A54; /* Light Red from palette */
+    color: #BCCCDC; /* Medium Accent from palette */
 }
 
 /* Responsive Styles */
