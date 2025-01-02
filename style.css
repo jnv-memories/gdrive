@@ -54,15 +54,16 @@ header p {
     display: block;
     padding: 10px 15px;
     background-color: #BCCCDC; /* Medium Accent from palette */
-    color: #FFFFFF; /* White */
+    color: #333; /* Default text color */
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.1em;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .links a:hover {
     background-color: #AA6B2; /* Dark Accent from palette */
+    color: #FFFFFF; /* White text on hover */
 }
 
 /* Footer Styles */
